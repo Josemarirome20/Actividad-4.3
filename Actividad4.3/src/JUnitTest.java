@@ -8,7 +8,7 @@ class JUnitTest {
 	void TestMedia() {
         int [] array = {3, 13, 22, 4, 32, 14, 23};
         int resultado = Metodo.encontrarTres(array);
-        assertEquals(3, 3);
+        assertEquals(3, resultado);
     }
 
 }
