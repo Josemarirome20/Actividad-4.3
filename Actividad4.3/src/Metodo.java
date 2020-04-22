@@ -11,21 +11,15 @@ public class Metodo {
 		System.out.println("La Media es : " + resultado);
 		return resultado;
 	}
-public static int encontrarTres(String[]Array3) {
-		
-		int contador=0;
-		
-		for(int i=0;i<Array3.length;i++) {
-			if(Array3.equals("3")) {
-				contador++;
-				System.out.println("El n�mero de coincidencias con "+ Array3[1]+" son: "+contador);
-			}else {
-				System.out.println("No hay ninguna coincidencia");
-			}
-			
-		}
-		
-		int resultado=0;
-		return resultado;
+public static int encontrarTres(int[] array) {
+	 int contador = 0;
+     for (int i = 0; i < array.length; i++) {
+         if(array[i]%10 == 3) {
+             contador++;
+         }
+     }
+ System.out.println("Hay " + contador + " números que términan en 3");
+ return contador;
+
 	}
 }
