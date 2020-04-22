@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		int [] array = {3, 11, 22, 4, 32, 24, 14, 20, 8};
+		int [] array = {3, 13, 22, 4, 32, 14, 23};
 		Metodo.CalcularMedia(array);
 	}
 

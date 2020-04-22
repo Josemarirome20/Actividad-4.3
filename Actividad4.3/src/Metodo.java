@@ -8,8 +8,7 @@ public class Metodo {
 				suma += array[i];
 			}
 		resultado = suma / array.length;
+		System.out.println("La Media es : " + resultado);
 		return resultado;
 	}
-	
-	
 }
