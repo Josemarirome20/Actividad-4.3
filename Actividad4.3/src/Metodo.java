@@ -1,6 +1,10 @@
 
 public class Metodo {
-	
+	/**
+	 * 
+	 * @param array un array con los números con los que calculara la media
+	 * @return retorna un int resultado que es la media de los numeros del array
+	 */
 	public static int CalcularMedia(int array[]){
 		int resultado = 0;
 		int suma = 0;
